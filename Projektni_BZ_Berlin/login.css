@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header {
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.red-line {
+    height: 8px; 
+    background-color: red;
+    width: 100%;
+}
+
+.header-content {
+    text-align: center;
+    background-color: white;
+}
+
+@font-face {
+    font-family: 'Belgates'; 
+    src: url('Belgates_Script.ttf') format('truetype');
+}
+
+.logo {
+    font-size: 25px;
+    color: red;
+    margin: 0px 0;
+    font-family: 'Belgates', sans-serif; 
+}
+
+main {
+    width: 60%;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    width: 100%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form label{
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+form input{
+    margin-bottom: 1em;
+    width: 20em;
+    height: 2em;
+}
+form button{
+    margin-bottom: 1em;
+    width: 8em;
+    height: 2.5em;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 0.9em;
+}
+footer {
+    width: 100%;
+    margin-top: auto;
+    background-color: #606060;
+    padding: 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 10em;
+}
+
+.footer-content p {
+    margin: 0 auto;
+    height: 4em;
+    width: 100%;
+    color: #666;
+    background-color: white;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-content {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gray-footer {
+  width: 50%;
+  height: 65%;
+  margin: 0 auto;
+  background-color: grey;
+}

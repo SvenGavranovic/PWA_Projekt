@@ -1,0 +1,209 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header {
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.red-line {
+    height: 8px; 
+    background-color: red;
+    width: 100%;
+}
+
+.header-content {
+    text-align: center;
+    background-color: white;
+}
+
+@font-face {
+    font-family: 'Belgates'; 
+    src: url('Belgates_Script.ttf') format('truetype');
+}
+
+.logo {
+    font-size: 25px;
+    color: red;
+    margin: 0px 0;
+    font-family: 'Belgates', sans-serif; 
+}
+
+nav {
+    width: 100%;
+    background-color: white;
+    border-top: 1px solid gray;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around; 
+    
+}
+
+nav ul li {
+    margin: 0;
+    width: 100%;
+    border-right: 1px solid gray;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    display: block;
+    padding: 10px 0;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+main {
+    width: 60%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+}
+
+.news-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Align items starting from the left on each new row */
+    margin-top: 30px;
+}
+
+.news-item {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+.news-item img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.img-div{
+    height: 300px;
+}
+
+.news-item h2 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+}
+
+.news-item p {
+    font-size: 14px;
+    color: #666;
+}
+
+.news-item a {
+    font-size: 14px;
+    color: red;
+    text-decoration: none;
+}
+article.sport {
+    width: 84%;
+    height: auto;              
+    margin: 20px 0;         
+    background-color: #f5f5f5; 
+    border-radius: 5px;      
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+article.kultur {
+    width: 84%;
+    height: auto;
+    margin: 20px 0;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.sport h1 {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    font-size: 24px;
+    color: #ffffff;
+    background-color: #ff7300;
+    border-radius: 3px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.kultur h1 {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    font-size: 24px;
+    color: #ffffff;
+    background-color: red;
+    border-radius: 3px;
+    text-align: center;
+    box-sizing: border-box;
+}
+footer {
+    width: 100%;
+    margin-top: auto;
+    background-color: #606060;
+    padding: 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 10em;
+}
+
+button{
+    background-color: #e60000;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.footer-content p {
+    margin: 0 auto;
+    height: 4em;
+    width: 100%;
+    color: #666;
+    background-color: white;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-content {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gray-footer {
+  width: 50%;
+  height: 65%;
+  margin: 0 auto;
+  background-color: grey;
+}
