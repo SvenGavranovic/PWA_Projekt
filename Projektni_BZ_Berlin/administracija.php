@@ -29,7 +29,7 @@
             }
 
             if (category === "" || category > 40) {
-                alert("Kategorija vijesti je obaveznadd ili je pre dugačak.");
+                alert("Kategorija vijesti je obavezna ili je pre dugačka.");
                 return false;
             }
 

@@ -10,7 +10,7 @@ if (mysqli_num_rows($result) > 0) {
         echo '<div class="img-div"><img src="' . $row['image'] . '" alt="' . $row['naslov'] . '"></div>';
         echo '<h2>' . $row['naslov'] . '</h2>';
         echo '<p>' . $row['sazetak'] . '</p>';
-        echo '<a href="clanak.php?id=' . $row['id'] . '">Read more</a>';
+        echo '<a href="clanak.php?id=' . $row['id'] . '">Read more...</a>';
         echo '</div>';
     }
 } else {
